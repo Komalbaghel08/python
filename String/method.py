@@ -1,4 +1,4 @@
-# upeer case to lower case convert krta h
+# uper case to lower case convert krta h
 s="this is python class"
 print(s.lower())
 
