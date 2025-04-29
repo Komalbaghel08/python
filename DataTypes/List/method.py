@@ -23,12 +23,16 @@ print(l)
 # pop()  --> remove last element from list (kv v beech ke element ko target krke nhi htayege jb khi jada jrurt h to kr skte )
 l = [2,4,5,6,7,10]
 print(l.pop())
+print(l)
+
 # print(l.pop(2)) -->(aisa bht kam krege remove se krte h ye )
+l = [2,4,5,6,7,10]
+print(l.pop(4))
 print(l)
 
 # remove()--> remove targeted element from list
 l = [2,4,5,6,7,10]
-print(l.pop(4))
+print(l.remove(4))
 print(l)
 
 # copy()--> creat new object with same element
