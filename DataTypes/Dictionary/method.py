@@ -50,8 +50,3 @@ d.setdefault('x',50)
 print(d)
 
 # update()
-d = {'name':komal, 'age':20}
-d1 = {'x':10, 'y':20, 'z':30}
-d.update(d1)
-print(d)
-print(d1)
