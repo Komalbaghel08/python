@@ -1,3 +1,54 @@
-t = (10,20,30,'python')
-print(type(t))
-print(id(t))
+n = input("entre a value")
+
+# x = int()
+# print(x)
+
+# x = float()
+# print(x)
+
+# x= complex()
+# print(x)
+
+# x= str(n)
+# print(x)
+
+
+x= list(n)
+print(x)
+
+
+x= tuple(n)
+print(x)
+
+
+
+x= str(n)
+print(x)
+
+
+# typecasting not use in dictionary
+# x= dict(n)
+# print(x)
+
+d ={'name':'komal' ,'age':27}
+
+
+# string give all value while other give key only
+x = str(d)
+print(x)
+
+x = frozenset(d)
+print(x)
+
+
+x= list(d)
+print(x)
+
+
+x= tuple(d)
+print(x)
+
+
+
+x= set(d)
+print(x)

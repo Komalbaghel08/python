@@ -21,5 +21,6 @@ x=10
 print(sys.getsizeof(x))
 
 
+
 # list aur tuple me difference kya h most important question
        #speed wala difference batana hai main hai   
