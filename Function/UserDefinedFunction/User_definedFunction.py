@@ -33,10 +33,10 @@
 
 
 # upr wale ke viceversa return kr fiye print ki jgh me toh hello store rha
-# def hello():
-#      return('hello')
-# x = hello()
-# print(x)
-# print(x)
-# print(x)
+def hello():
+     return('hello')
+x = hello()
+print(x)
+print(x)
+print(x)
 
