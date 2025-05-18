@@ -76,19 +76,19 @@
 #     i = i - 1
 
 # damru pattern
-n = int(input("enter any number: "))
+# n = int(input("enter any number: "))
 
-i = 0
-while i < n:
-    print('*'*(n-i) + ' '* i)
-    i = i + 1
-# print(i)
-i = i - 2
-while i >=0 :
-    print("*" * (n - i) + ' '*i)
-    i = i - 1
+# i = 0
+# while i < n:
+#     print('*'*(n-i) + ' '* i)
+#     i = i + 1
+# # print(i)
+# i = i - 2
+# while i >=0 :
+#     print("*" * (n - i) + ' '*i)
+#     i = i - 1
 
-# opposite like uper wala
+# # opposite like uper wala
 
 # n = int(input("enter any number: "))
 
@@ -101,3 +101,8 @@ while i >=0 :
 # while i >=0 :
 #     print(" " * (n - i) + '* '*i)
 #     i = i - 1
+
+row = int(input("ENTER NUMBER: "))
+
+for i in range(0, row):
+    print("*"*(row-i))
