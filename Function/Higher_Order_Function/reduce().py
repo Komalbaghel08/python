@@ -34,9 +34,9 @@
 # print("The maximum number is:", max_num)
 
 
-l = [1,2,3,4,5,8,8]
-def add1(n):
-    return n+1
-x = map(add1,l)
-print(x)
-print(tuple(x))
+# l = [1,2,3,4,5,8,8]
+# def add1(n):
+#     return n+1
+# x = map(add1,l)
+# print(x)
+# print(tuple(x))
