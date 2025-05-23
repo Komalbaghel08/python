@@ -20,4 +20,12 @@ l1 = []
 for i in l:
     if i >= 5:
         l1.append(i)
-print(l1)          
+print(l1)    
+
+
+# que-------------->
+l = [1,7,2,4,6,22]
+def filter_function(a):
+    return a>2
+newl = list(filter(filter_function,l))
+print(newl)
