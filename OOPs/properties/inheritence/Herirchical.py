@@ -24,4 +24,3 @@ obj1.home()
 obj2.home()
 
 
-# mro
