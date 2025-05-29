@@ -1,11 +1,24 @@
-l = [10, 2, 4, 6, 8, 20]
+l = [10,2,4,6,8,20]
 
-i = 0
-while i < len(l) - 1:
-    if l[i] > l[i + 1]:
-        l[i], l[i + 1] = l[i + 1], l[i]
-        i = 0  #
-    else:
-        i += 1
+for i in range(len(l)):
+    swapped = 0
 
-print("Ascending order:", l)
+    for j in range(0,len(l)-1):
+        if l[j] > l[j + 1]:
+            l[j], l[j + 1] = l[j + 1],l[j]
+            swapped = 1
+    
+    if not swapped == 1:
+        break
+
+print(l)
+    
+        
+        
+        
+        
+        
+        
+        
+        
+   
