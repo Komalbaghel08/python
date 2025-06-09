@@ -9,3 +9,5 @@ i = i - 2
 while i >=0 :
     print("*" * (n - i) + ' '*i)
     i = i - 1
+    
+    
