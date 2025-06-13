@@ -7,3 +7,4 @@ for i in range(len(l)-1):
 else:
  max=l[i+1]
 print(max)
+
