@@ -8,3 +8,15 @@ for i in l:
  if i%2 !=0:
   l1.append(i)
 print(l1)
+
+
+# WAP to arrenge all zeroes at the end.
+l = [2,0,3,0,1,0,5] # [2,3,1,5,0,0,0]
+l1=[]
+for i in l:
+ if i !=0:
+  l1.append(i)
+n = len(l)-len(l1)
+for i in range(n):
+ l1.append(0)
+print(l1)
