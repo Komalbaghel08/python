@@ -42,3 +42,4 @@ for i in range(10,1,-2):
 for j in k:
  print(j,end=" ")
 print()
+
