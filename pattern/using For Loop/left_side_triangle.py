@@ -43,3 +43,7 @@ for j in k:
  print(j,end=" ")
 print()
 
+
+
+
+
