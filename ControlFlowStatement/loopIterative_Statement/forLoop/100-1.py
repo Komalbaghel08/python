@@ -1,2 +1,2 @@
-for l in range(101,0,-1):
-    print(l)    
+for i in range(100,0,-1):
+    print(i)  

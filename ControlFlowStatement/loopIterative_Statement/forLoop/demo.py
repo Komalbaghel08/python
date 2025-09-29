@@ -1,11 +1,11 @@
-s = input("Enter string: ")# for string
-t = eval(input("Enter any tuple: "))
+# s = input("Enter string: ")# for string
+# t = eval(input("Enter any tuple: "))
 
-for i in s:
-    print(i)
+# for i in s:
+#     print(i)
 
-for i in t :
-    print(i)
+# for i in t :
+#     print(i)
 
 # d = eval(input("Enter dictionary: "))
 
@@ -41,3 +41,20 @@ for i in t :
 #         print(i, end=" + ")
 #     else:
 #         print(i, end=" = ")    
+
+
+
+
+
+
+
+# s = "komal"
+# c = 0
+# for i  in s:
+#     c = c+1
+#     print(i,c)
+
+a = int(input("Enter a no."))
+for i in range(1,a+1):
+    print(i)
+        
