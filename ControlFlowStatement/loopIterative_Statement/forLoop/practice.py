@@ -54,14 +54,21 @@
 # print("LCM of", x, "and", y, "is", lcm)
      
 ## HCF :----------
-x = int(input("Enter any number: "))
-y = int(input("Enter any number: "))
-if x<y:
-    smaller = x
-else:
-    smaller = y 
-for i in range(1,smaller+1):
-    if(x%i==0 and y%i==0):
-        hcf = i
-print("HCF of",x, "and", y ,"is", hcf )        
-                                         
+# x = int(input("Enter any number: "))
+# y = int(input("Enter any number: "))
+# if x<y:
+#     smaller = x
+# else:
+#     smaller = y 
+# for i in range(1,smaller+1):
+#     if(x%i==0 and y%i==0):
+#         hcf = i
+# print("HCF of",x, "and", y ,"is", hcf )    
+
+
+    
+  ## Factors :--
+n = int(input("enter any no.:"))
+for i in range(1,n+1):
+    if n%i==0:
+        print(i)                                       
