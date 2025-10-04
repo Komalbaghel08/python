@@ -37,11 +37,24 @@
 # print("the factorial of",i,"is:",factt(i))
 
 
-def add_sub(x,y):
-    add = x+y
-    sub = x-y
-    return add,sub
-x,y = add_sub(10,20)
+# def add_sub(x,y):
+#     add = x+y
+#     sub = x-y
+#     return add,sub
+# a,b = add_sub(10,20)
 
-print("The Addition is :",x)
-print("The Subtraction is :",y)
+# print("The Addition is :",a)
+# print("The Subtraction is :",b)
+
+
+def calc(a,b):
+    add=a+b
+    sub=a-b
+    mul=a*b
+    div=a/b
+    return add,sub,mul,div
+x,y,z,p=calc(int(input("Enter first value:")),int(input("Enter second value: ")))
+print("The Addition is",x)
+print("The Substraction is",y)
+print("The Multip is",z)
+print("The Division is",p)

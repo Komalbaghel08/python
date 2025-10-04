@@ -8,6 +8,7 @@
 # print(tuple(x))
 
 
+
 # -->Que2
 # l1 = [1,2,3,4,5]
 # l2 = [5,4,3,2,1]
@@ -16,6 +17,7 @@
 # x = map(add5,l1,l2)
 # print(x)
 # print(tuple(x))
+
 
 # -->Que3 power wala
 l1 = [1,2,3,4,5]
