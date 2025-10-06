@@ -1,4 +1,4 @@
-# Sntax
+# Syntax
 # map(fun_name,collection) ----->collection--> list,tuple,string
 # l = [1,2,3,4,5]
 # def add5(n):
@@ -6,7 +6,6 @@
 # x = map(add5,l)
 # print(x)
 # print(tuple(x))
-
 
 
 # -->Que2
