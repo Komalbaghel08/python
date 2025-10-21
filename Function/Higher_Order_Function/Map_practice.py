@@ -17,7 +17,7 @@ print(list(y))'''
 s = "komal"
 def add(n):
     x = ord(n)
-    return x
+    return chr(x+5)
 x = map(add,s)
 print(x)
 print(list(x))
