@@ -9,3 +9,5 @@ if num > 1:
         print(num, "is a prime number")
 else:
     print("Not a prime number")
+
+
