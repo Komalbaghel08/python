@@ -17,11 +17,7 @@ while True:
     try:
         result = eval(expr)
         print("Result:", result)
-    except ZeroDivisionError:
+    except ZeroDivisionError:  #ZeroDivisionError built in h 
         print("Error: Cannot divide by zero.")
     except:
         print("Error: Invalid expression.")
-
-    again = input("Calculate again? (yes/no): ").lower()
-    if again != "yes":
-        break
