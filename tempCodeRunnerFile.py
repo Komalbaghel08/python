@@ -1,4 +1,6 @@
-import keyword
-x = keyword.kwlist
-print("total keyword =",len(x))
-print("keyword ",x)
+n = "komal"
+# i = 1
+# while i<=10:
+#     print(n)
+#     i+=1
+    
