@@ -48,15 +48,15 @@
     
     
 #  Write a program to add 5 in each elements in given tuple.
-# (10,20,30,40,50)
-# t = (10, 20, 30, 40, 50)
+(10,20,30,40,50)
+t = (10, 20, 30, 40, 50)
 
-# new_t = ()
+new_t = ()
 
-# for x in t:
-#     new_t = new_t + (x + 5,)
+for x in t:
+    new_t = new_t + (x + 5,)
 
-# print(new_t)
+print(new_t)
     
     
 
