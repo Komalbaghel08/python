@@ -89,33 +89,34 @@
 
 
 # ------count_word---
-t = input("Enter string: ")
-count = 0
-in_word = False
+# t = input("Enter string: ")
+# count = 0
+# in_word = False
 
-for ch in t:
-    if not in_word:
-        count += 1
-        in_word = True
-    if ch == " ":
-        in_word = False
+# for ch in t:
+#     if not in_word:
+#         count += 1
+#         in_word = True
+#     if ch == " ":
+#         in_word = False
 
-print(count)
+# print(count)
 
 
 # ----------------Reaplace character-------------------
-def replace_char(s, old, new):
-    result = ""
-    for ch in s:
-        if ch == old:
-            result = result + new
-        else:
-            result = result + ch
-    return result
+# def replace_char(s, old, new):
+#     result = ""
+#     for ch in s:
+#         if ch == old:
+#             result = result + new
+#         else:
+#             result = result + ch
+#     return result
 
 
-text = input("Enter string: ")
-old_char = input("Enter character to replace: ")
-new_char = input("Enter new character: ")
+# text = input("Enter string: ")
+# old_char = input("Enter character to replace: ")
+# new_char = input("Enter new character: ")
 
-print(replace_char(text, old_char, new_char))
+# print(replace_char(text, old_char, new_char))
+
