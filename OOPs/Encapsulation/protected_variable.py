@@ -9,3 +9,5 @@ class C(P):
 obj = C()
 print(obj._x)   
 print(obj._show())
+
+'''protected variable class ke bhr access nhi kr skte sirf classke andr access kr skte mtlb sirf child class me '''

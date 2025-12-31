@@ -1,3 +1,5 @@
+'''aik class ke andr multiple constructor bna skte h but execute last wala hota h due to merhod overload'''
+
 class student:
     def __init__(self,name,city,phone):
         self. n = name

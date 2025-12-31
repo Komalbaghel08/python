@@ -1,7 +1,7 @@
-#INSTANCE_VARIABLE ---> aise variable jo self pe depend hote h 
-    # 2. aise variable jo object ke value bdlne pe apni value bdlte h 
-    # 3.aise variable jo self ke sath likhe jate h 
-    
+'''INSTANCE_VARIABLE ---> aise variable jo self pe depend hote h 
+     2. aise variable jo object ke value bdlne pe apni value bdlte h 
+    3.aise variable jo self ke sath likhe jate h '''
+''' SELF -- self aik refrense parameter h jo current object ka address hold krta h (class ke object ka)'''  
     
 class Student:
     def __init__(self,name,city):
