@@ -19,4 +19,3 @@ for i in range(2, n):
         break
 else:
     print("Prime")
-
