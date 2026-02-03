@@ -23,10 +23,12 @@ sq. number pattern
 3 3 3
 4 4 4 4
 5 5 5 5 5
+6 6 6 6 6 6
 '''
 r = int(input("Enter number of rows: "))
 for i in range(1,r+1):
     print((str(i)+" ")*i)
+    
     
 '''# reverse triangle pattern
 *****
