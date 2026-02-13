@@ -9,3 +9,7 @@ if num > 1:
 else:   
     print("not prime")
     
+    
+    
+    
+    
