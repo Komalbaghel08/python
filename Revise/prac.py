@@ -31,5 +31,4 @@ def first_non_repeating(s):
 
     return -1
 
-
 print(first_non_repeating("aabccdeff"))
