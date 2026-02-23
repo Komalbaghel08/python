@@ -49,7 +49,3 @@ d = {'x':10, 'y':20, 'z':30}
 d.setdefault('x',50)
 print(d)
 # update()
-
-
-
-
