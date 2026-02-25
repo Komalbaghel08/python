@@ -25,6 +25,9 @@ l = [2,4,5,6,7,10]
 print(l.pop())
 print(l)
 
+
+
+
 # print(l.pop(2)) -->(aisa bht kam krege remove se krte h ye )
 l = [2,4,5,6,7,10]
 print(l.pop(4))
