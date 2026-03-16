@@ -8,4 +8,3 @@ if num > 1:
         print("prime")
 else:   
     print("not prime")
-    
