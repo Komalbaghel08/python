@@ -15,5 +15,5 @@ for i in range(len(s)):
     if freq[s[i]] == 1:
         index = i
         break
-
 print("First non-repeating character index:", index)
+
