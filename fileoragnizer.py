@@ -22,7 +22,6 @@ def organize_folder(folder_path):
         _, ext = os.path.splitext(filename)
 
         moved = False
-
         for folder, extensions in FILE_TYPES.items():
             if ext.lower() in extensions:
                 target_folder = os.path.join(folder_path, folder)
@@ -33,13 +32,11 @@ def organize_folder(folder_path):
                 shutil.move(file_path, os.path.join(target_folder, filename))
                 moved = True
                 break
-
         # others
         if not moved:
             other_folder = os.path.join(folder_path, "Others")
             os.makedirs(other_folder, exist_ok=True)
             shutil.move(file_path, os.path.join(other_folder, filename))
-
 
 if __name__ == "__main__":
     path = input("Enter folder path to organize: ")
