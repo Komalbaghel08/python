@@ -10,6 +10,4 @@ for i in range(len(l)):
     
     if not swapped == 1:
         break
-
 print(l)
-    
