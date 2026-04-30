@@ -49,3 +49,28 @@ while True:
 
     else:
         print("Invalid choice. Try again.")
+        
+        
+        # passward generator
+# Password Generator 🔐
+
+import random
+import string
+
+print("===== PASSWORD GENERATOR =====")
+
+length = int(input("Enter password length: "))
+
+letters = string.ascii_letters
+numbers = string.digits
+symbols = "!@#$%^&*()"
+
+all_characters = letters + numbers + symbols
+
+password = ""
+
+for i in range(length):
+    password += random.choice(all_characters)
+
+print("\nGenerated Password:")
+print(password)
