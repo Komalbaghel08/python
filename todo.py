@@ -9,10 +9,8 @@ def show_menu():
     print("2. View Tasks")
     print("3. Remove Task")
     print("4. Exit")
-
 while True:
     show_menu()
-    
     choice = input("Enter your choice: ")
 
     if choice == "1":
