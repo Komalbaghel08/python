@@ -9,8 +9,6 @@ def contains_duplicate(nums):
         seen.add(num)
 
     return False
-
-
 # Example
 arr = [1, 2, 3, 4, 2]
 
