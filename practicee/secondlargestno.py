@@ -7,3 +7,4 @@ if len(unique_numbers) >= 2:
     print("Second Largest Number:", unique_numbers[-2])
 else:
     print("No second largest number found")
+    
