@@ -16,3 +16,4 @@ for i in range(len(s)):
         index = i
         break
 print("First non-repeating character index:", index)
+
